@@ -11,3 +11,13 @@ for i in range(n,m+1,k):
            print(i,"it is odd")
            s+=i
 print("The sum of all numbers from",n,"to",m,"with difference",k,"is:",s)
+output:
+Starting range:1
+Ending range:5
+Step count:1
+1 it is odd
+2 it is even
+3 it is odd
+4 it is even
+5 it is odd
+The sum of all numbers from 1 to 5 with difference 1 is: 15
