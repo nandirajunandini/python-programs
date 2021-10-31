@@ -1,0 +1,11 @@
+num=int(input("Enter a number:"))
+n=int(input("Starting range:"))
+m=int(input("Ending range:"))
+k=int(input("Step count:"))
+for i in range(n,m+1,k):
+            if i>0:
+                        print("positive number")
+            elif i==0:
+                        print("Zero")
+            else:
+                        print("negative number")
