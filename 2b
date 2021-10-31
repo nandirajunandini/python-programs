@@ -1,0 +1,13 @@
+n=int(input("Starting range:"))
+m=int(input("Ending range:"))
+k=int(input("Step count:"))
+s=0
+for i in range(n,m+1,k):
+    if i > 0:
+        if i%2== 0:
+           print(i,"it is even")
+           s+=i
+        else:
+           print(i,"it is odd")
+           s+=i
+print("The sum of all numbers from",n,"to",m,"with difference",k,"is:",s)
