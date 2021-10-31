@@ -1,0 +1,9 @@
+n=int(input("Starting range:"))
+m=int(input("Ending range:"))
+k=int(input("Step count:"))
+p=int(input("Limit:"))
+s=0
+for i in range(n,m+1,k):
+    if i>p:
+        break
+    print("The cube of the number",i,"is:",i*i*i)
